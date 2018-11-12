@@ -13,7 +13,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'w!invite') {
-    msg.reply('https://tiny.cc/welcomerbot');
+    msg.reply('https://discord.gg/BWNpTt9');
   }
 });
 
@@ -26,7 +26,7 @@ client.on('guildMemberAdd', member => {
      .setThumbnail(memberavatar)
      .addField('\:bust_in_silhouette: / User: ', `${member}`)
      .addField('\:thumbsup: / Welcome here', `${member}`)
-     .addField('\:point_right: / Here you go. A role to you', `Regular`)
+     .addField('\:point_right: / Here you go. A role to you', `Member`)
      .setFooter(`Message sent by Welcomer`)
      .setTimestamp()
   
